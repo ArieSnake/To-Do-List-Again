@@ -1,0 +1,118 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  transition: filter 300ms, transform 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 10px rgba(100, 100, 255, 0.5));
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 10px rgba(0, 200, 255, 0.5));
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  margin: 1em auto;
+  max-width: 600px;
+}
+
+.read-the-docs {
+  color: #666;
+}
+
+.todo {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo p {
+  margin: 0;
+  flex: 1;
+}
+
+.todo button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo button:hover {
+  background-color: #0056b3;
+}
+
+.done {
+  background: #e0e0e0;
+  opacity: 0.7;
+}
+
+.done p {
+  text-decoration: line-through;
+}
+
+.button-active {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-active:hover {
+  background-color: #0056b3;
+}
+
+.heading-todo {
+  font-size: 1.8em;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1em;
+  text-align: center;
+  background-color: #007bff;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+
+.showing {
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #555;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.showing strong {
+  color: #ffeb3b;
+}
+
+button {
+  margin: 2px 5px;
+}
